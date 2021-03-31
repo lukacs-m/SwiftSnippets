@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>navViewTag</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private extension &lt;#View Name#&gt; {
+    var navigationView: some View {
+        return NavigationLink(destination: &lt;#Destination#&gt;,
+                              tag: &lt;#Tag to match#&gt;, selection: $navigationAction) {
+            EmptyView().frame(width: 0, height: 0)
+        }.buttonStyle(PlainButtonStyle())
+        .onAppear(perform: {
+            navigationAction = nil
+        })
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>99F1A853-DE39-499E-8C0D-6B4AB596FF9A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Navigation Sub View</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

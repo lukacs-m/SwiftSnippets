@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>documentation</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/**
+    Example of markdown description
+    It doubles the value given as a parameter.
+     
+    ### Usage Example: ###
+    ````
+    let single = 5
+    let double = doubleValue(single)
+    print(double)
+    ````
+ 
+    * Use the `doubleValue(_:)` function to get the double value of any number.
+    * Only ***Int*** properties are allowed.
+*/</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E54C32AD-FE47-475E-B22D-4CE5E7CBBE2C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Markdown</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
